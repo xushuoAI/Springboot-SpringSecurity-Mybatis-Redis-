@@ -1,0 +1,25 @@
+POST http://localhost:8080/courseList
+Content-Type: application/x-www-form-urlencoded
+X_Auth_Token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1ODQxNzIxODI5NDMsImV4cCI6MTU4NDc3Njk4Mn0.wuwaZjYPBYlwCeCznASg69sgG33HfbXdi0ywGJsw-8XzbpGsV_9GscZAJnGo_cPR6BQowBGpUTxEO52FjRJq6Q
+
+
+//http://localhost:8080/courseList?current=4&size=3分页访问
+
+###
+POST http://localhost:8080/courseList/course1920
+Content-Type: application/x-www-form-urlencoded
+X_Auth_Token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1ODQxNzg5MzY2NzcsImV4cCI6MTU4NDc4MzczNn0.gB9fZDFvwdPjGAiwd5zfJLhLJ9qW4O3U-yj8rhHpK-rznSYBwzNZzUqqoebL8MA6jE1_s2BvdIXu4bMUTDhR8w
+
+###
+POST http://localhost:8080/courseDetail/SoftwareTesting
+Content-Type: application/x-www-form-urlencoded
+X_Auth_Token:eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE1ODQxNzg5MzY2NzcsImV4cCI6MTU4NDc4MzczNn0.gB9fZDFvwdPjGAiwd5zfJLhLJ9qW4O3U-yj8rhHpK-rznSYBwzNZzUqqoebL8MA6jE1_s2BvdIXu4bMUTDhR8w
+
+###
+
+GET http://localhost:8080/oauth/token?grant_type=password&username=xushuo&passwrod=123456&scope=all
+
+###
+GET http://localhost:8080/get_token?username=admin&password=admin
+
+###
